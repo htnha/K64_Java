@@ -3,8 +3,9 @@ package person;
 public class Student extends Person{
     double gpa;
 
-    public Student(String name, int age, String address) {
+    public Student(String name, int age, String address, double gpa) {
         super(name, age, address);
+        this.gpa = gpa;
     }
 
     public double getGpa() {
