@@ -27,6 +27,8 @@ public class Square extends Rectangle{
                 "side=" + width +
                 ", color='" + color + '\'' +
                 ", filled=" + filled +
+                ", area = " + getArea() +
+                ", perimeter = "  + getPerimeter() +
                 '}';
     }
 }
