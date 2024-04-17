@@ -36,7 +36,8 @@ public class Book {
     public void setAuthor(String author) {
         this.author = author;
     }
-    public boolean checkAvailability(){
+
+    public boolean checkAvailability() {
         return available;
     }
 }

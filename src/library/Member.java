@@ -1,5 +1,6 @@
 package library;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -9,11 +10,11 @@ public class Member {
     private String email;
     private List<Book> booksBorrowed;
 
-    public Member(String memberId, String name, String email, List<Book> booksBorrowed) {
+    public Member(String memberId, String name, String email) {
         this.memberId = memberId;
         this.name = name;
         this.email = email;
-        this.booksBorrowed = booksBorrowed;
+        this.booksBorrowed = new ArrayList<>();
     }
 
     public String getMemberId() {
